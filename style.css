@@ -38,6 +38,7 @@ body {
 article {
     width: 90vw;
     max-width: 700px;
+    max-height: 90vh;
     margin: 0px auto;
     padding: 10px;
     font-family: "Source Sans Pro", sans-serif;
@@ -47,7 +48,7 @@ article {
 h1 {
     font-weight: 300;
     line-height: 1.5;
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 
 .highlight-link {
