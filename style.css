@@ -166,15 +166,18 @@ h1 {
         max-height: 500px;
     }
     #blobSvg0 {
-        left: 15%;
-        top: -10%;
+        left: -5%;
+        top: -25%;
+        width: 135%;
     }
     #blobSvg1 {
-        left: -20%;
-        top: -5%;
+        left: -30%;
+        top: -15%;
+        width: 115%;
     }
     #blobSvg2 {
-        left: -8%;
-        top: 40%;
+        left: -15%;
+        top: 30%;
+        width: 115%;
     }
   }
