@@ -249,8 +249,11 @@ body.light-mode .highlight-link, body.light-mode .arrow-link {
 body.dark-mode {
     background-color: #36363C;
 }
-body.dark-mode .highlight-link, body.dark-mode .arrow-link {
+body.dark-mode h1, body.dark-mode .highlight-link, body.dark-mode .arrow-link {
     color: #fff;
+}
+body.dark-mode #blobSvg0, body.dark-mode #blobSvg1, body.dark-mode #blobSvg2 {
+    opacity: 0.3;
 }
 
 #toggleModeContainer { 
