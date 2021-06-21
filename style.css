@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Lora:400,700|Source+Sans+Pro:300,400|Dosis:300,400,700');
+@import url('./toggle.css');
 
 /* https://astronautweb.co/snippet/font-awesome/ */
 
 :root {
     --link-color: #007FFF; /* slateblue */
     --avatar-size: 80px;
+    --dark-text-color: #36363C;
+    --size-unit: 1.5px;
 }
 
-* {
+*, *:before, *:after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -132,7 +135,6 @@ article {
     margin: 0px auto;
     padding: 10px;
     font-family: "Source Sans Pro", sans-serif;
-    color: #36363C;
 }
 
 h1 {
@@ -143,7 +145,6 @@ h1 {
 
 .highlight-link {
     text-decoration: none;
-    color: #36363C;
     display: inline-block;
     padding: 0px 7px;
     transition: all .2s ease-in-out;
@@ -156,7 +157,6 @@ h1 {
     color: white;
 }
 .arrow-link {
-    color: #36363C;
     font-size: 1.5rem;
     text-decoration: none;
 }
@@ -210,6 +210,9 @@ h1 {
 }
 
 @media only screen and (max-width: 600px) {
+    :root {
+        --size-unit: 1.25px;
+    }
     .main {
         max-height: 500px;
     }
@@ -235,4 +238,25 @@ h1 {
         top: 30%;
         width: 115%;
     }
-  }
+}
+
+body.light-mode {
+    background-color: white;
+}
+body.light-mode .highlight-link, body.light-mode .arrow-link {
+    color: var(--dark-text-color);
+}
+body.dark-mode {
+    background-color: #36363C;
+}
+body.dark-mode .highlight-link, body.dark-mode .arrow-link {
+    color: #fff;
+}
+
+#toggleModeContainer { 
+    position: absolute;
+    top: 10px;
+    right:10px;
+    height: 20px;
+    z-index: 999;
+}

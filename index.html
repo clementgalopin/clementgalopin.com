@@ -26,6 +26,12 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
+    <div id="toggleModeContainer">
+        <input type="checkbox" id="toggle" class="toggle--checkbox">
+        <label for="toggle" class="toggle--label">
+            <span class="toggle--label-background"></span>
+        </label>
+    </div>
     <div class="main">
         <div>
             <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="blobSvg0">
@@ -85,5 +91,21 @@
             </div>
         </article>
     </div>
+    <script type="text/javascript">
+        var themeModeToggle = document.getElementById('toggle');
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.body.classList.add('dark-mode');
+            themeModeToggle.checked = true;
+        } else {
+            document.body.classList.add('light-mode');
+            themeModeToggle.checked = false;            
+        }
+        themeModeToggle.addEventListener('change', function() {
+            console.log(themeModeToggle.checked);
+            document.body.classList.toggle('dark-mode');
+            document.body.classList.toggle('light-mode');
+        });
+        // document.body.classList.contains('my-class-name')        
+    </script>
 </body>
 </html>
