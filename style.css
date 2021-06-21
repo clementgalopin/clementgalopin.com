@@ -217,6 +217,9 @@ h1 {
         line-height: 2.2rem;
         font-size: 1.8rem;
     }
+    #blobSvg0, #blobSvg1, #blobSvg2 {
+        animation: none;
+    }
     #blobSvg0 {
         left: -5%;
         top: -25%;
