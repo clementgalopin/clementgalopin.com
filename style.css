@@ -33,31 +33,79 @@ body {
     max-height: 400px;
 }
 
+svg {
+    position: absolute;
+    transition: all 1s ease-in-out;
+}
+
 #blobSvg0 {
     opacity: 0.5;
-    position: absolute;
     z-index: 5;
     width: 100%;
     left: 10%;
     top: -50%;
+    animation: morph0 8s ease-in-out infinite;
 }
 
 #blobSvg1 {
     opacity: 0.5;    
-    position: absolute;
     z-index: 10;
     width: 100%;
     left: -25%;
     top: -35%;
+    animation: morph1 8s ease-in-out infinite;
 }
 
 #blobSvg2 {
     opacity: 0.8;
-    position: absolute;
     z-index: 10;
     width: 100%;
     left: -8%;
     top: -4%;
+    animation: morph2 16s ease-in-out infinite;
+}
+
+@keyframes morph0 {
+    0% {
+        width:95%;
+        transform: rotate(5deg);
+    } 
+    50% {
+        width:90%;
+        transform: rotate(15deg);
+    }
+    100% {
+        width:95%;
+        transform: rotate(5deg);
+    }
+}
+@keyframes morph1 {
+    0% {
+        width:95%;
+        transform: rotate(-15deg);
+    } 
+    50% {
+        width:90%;
+        transform: rotate(-30deg);
+    }
+    100% {
+        width:95%;
+        transform: rotate(-15deg);
+    }
+}
+@keyframes morph2 {
+    0% {
+        width:95%;
+        transform: rotate(15deg);
+    } 
+    50% {
+        width:90%;
+        transform: rotate(30deg);
+    }
+    100% {
+        width:95%;
+        transform: rotate(15deg);
+    }
 }
 
 .header, .footer {
