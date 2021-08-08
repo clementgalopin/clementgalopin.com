@@ -1,0 +1,22 @@
+<p class="text-justify">I am an entrepreneur passionate about tech, data and customer relationship management.</p>
+<p class="text-justify">Currently building <a href="https://octolis.com" target="_blank">Octolis</a> to empower operational teams.</p>
+<p class="text-right">Get in touch 👉 <a href="https://linkedin.com/in/clementgalopin/" target="_blank">here</a>.</p>
+
+<style>
+	a {
+		cursor: pointer;
+		text-decoration: none;
+		display: inline-block;
+		padding: 0px 7px;
+		transition: all .2s ease-in-out;
+		box-sizing: border-box;
+		text-decoration: none;
+		box-shadow: inset 0 -6px 0 var(--link-color);
+	}
+	a:hover {
+		box-shadow: inset 0 -55px 0 0 var(--link-color);
+	}
+	a, a:hover, a:visited {
+		color: currentColor;
+	}
+</style>
