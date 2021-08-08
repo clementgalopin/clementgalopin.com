@@ -3,14 +3,13 @@
 </script>
 
 <div>
-	<p class="text-center">&copy; {year} Clément Galopin. Built with Svelte, Tailwind & Netlify.</p>
+	<p class="text-center">&copy; {year} Clément Galopin. Built with Svelte, Tailwind & Vercel.</p>
 </div>
 
 <style>
 	p {
 		@apply p-3;
+		@apply text-xs;
 		font-weight: 100;
-		line-height: calc(3/2 * 0.35em);
-		font-size: 0.7rem;
 	}
 </style>

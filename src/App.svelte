@@ -58,8 +58,7 @@
 
 	p {
 		font-weight: 300;
-		line-height: calc(3/2 * 1em);
-		font-size: 2rem;
+		@apply text-xl;
 	}
 	div + p, p + p {
 		margin-top: calc(2/3 * 1em);
