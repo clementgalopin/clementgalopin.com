@@ -63,7 +63,6 @@
 	div + p, p + p {
 		margin-top: calc(2/3 * 1em);
 	}
-
 	.glass {
 		@apply p-6;
 		width: 100%;
