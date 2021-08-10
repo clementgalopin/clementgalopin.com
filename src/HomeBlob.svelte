@@ -32,7 +32,7 @@
 	.blob {
 		position: absolute;
 		transition: all 0.5s ease-in-out;
-		opacity: 0.45;
+		opacity: 0.35;
 	}
 	.blob, .blob svg {
 		height: 100%;
