@@ -3,7 +3,7 @@
 </script>
 
 <div>
-	<p class="text-center">&copy; {year} Clément Galopin. <span class="md:hidden"><br></span>Built with Svelte, Tailwind & Vercel.</p>
+	<p class="text-center">&copy; {year} Clément Galopin. <span class="md:hidden"><br></span>I built this with Svelte, Tailwind & Vercel.</p>
 </div>
 
 <style>

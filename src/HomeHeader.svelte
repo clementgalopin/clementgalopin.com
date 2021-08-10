@@ -3,7 +3,7 @@
 		<div class="rounded-full bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500"></div>
 	</div>
 	<div>
-		<p>Hello, I'm <b>Clément</b> 👋</p>
+		<p>Hello, <span class="md:hidden"><br></span>I'm <b>Clément</b> 👋</p>
 	</div>
 </div>
 
