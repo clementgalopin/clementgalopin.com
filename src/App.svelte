@@ -38,7 +38,7 @@
 	html, body {
 		width: 100%;
 		height: 100%;
-		overflow: hidden;
+		overflow-y: hidden;
 	}
 	body {
 		display: flex;
@@ -58,7 +58,7 @@
 
 	p {
 		font-weight: 300;
-		@apply text-xl;
+		@apply text-lg;
 	}
 	div + p, p + p {
 		margin-top: calc(2/3 * 1em);
