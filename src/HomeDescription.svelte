@@ -6,7 +6,7 @@ import App from "./App.svelte";
 <p class="text-left">I am an entrepreneur passionate about tech, data, and customer relationship management.<p>
 <p class="text-left">I used to do data & CRM consulting for French startups (Openclassrooms, Hellocasa/IZI by EDF, Yousign...) or large businesses (RATP Group, Randstad, Solocal...).</p>
 <p class="text-left">I am currently building <a href="https://octolis.com" target="_blank">Octolis</a> to give superpowers to operational teams.</p>
-<p class="text-left">I also give classes about CRM & Data Platforms at <a href="https:/em-lyon.com" target="_blank">emlyon</a> on a regular basis.</p>
+<p class="text-left">I also give classes about CRM & Data Platforms at <a href="https://em-lyon.com" target="_blank">emlyon</a> on a regular basis.</p>
 
 <p class="text-right">Get in touch 👉 <a href="https://linkedin.com/in/clementgalopin/" target="_blank">here</a>.</p>
 
